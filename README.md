@@ -1,4 +1,6 @@
-# 业余电台BG7XTQ的QSL卡片LaTeX模板
+# 业余电台BG7XTQ的QSL卡片
+
+## 例图
 
 ![BG7XTQ的QSL卡片](images/BG7XTQ.png)
 
