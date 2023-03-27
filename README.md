@@ -8,4 +8,4 @@
 
 - noto包
 - xeCJK包
-- metalogo包
+
