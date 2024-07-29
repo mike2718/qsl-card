@@ -2,7 +2,7 @@
 
 ## 例图
 
-![BG7XTQ的QSL卡片](images/BG7XTQ.png)
+![BG7XTQ的QSL卡片](images/BG7XTQ-350dpi.png)
 
 ## 依赖
 
