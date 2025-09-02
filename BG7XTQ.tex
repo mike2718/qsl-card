@@ -8,11 +8,11 @@
 \usepackage{background}      % 设置页面背景图像
 \usepackage{noto}
 \usepackage{xeCJK}
-
 \usepackage{amsmath}
 \usepackage{latexsym}
 \usepackage{tabularx}
 \usepackage{metalogo}
+\usepackage{ulem}
 \renewcommand{\quad}{\hspace*{2.5ex}}
 \setlength{\parindent}{0pt}
 \renewcommand{\familydefault}{\sfdefault}
@@ -26,7 +26,7 @@
   scale=1,
   angle=0,
   opacity=1,
-  contents={\includegraphics[width=\paperwidth,height=\paperheight]{images/front.png}}
+  contents={\includegraphics[width=\paperwidth,height=\paperheight]{images/front.jpg}}
 }
 
 % 设置所有文字为白色
@@ -40,11 +40,11 @@
 \vfill
 
 \begin{minipage}[t]{0.3\textwidth}
-    \textbf{Foo Bar} \\
+    \textbf{Funing Mo} \\
     \footnotesize
-%    Foobar Foobar Foobar, \\
-%    Foobar Foobar Foobar, \\
-%    Foobar Foobar Foobar Foobar, \\
+    1 Dong 1 Danyuan 302 \\
+    Qixing Lu 133 Hao, Qingxiu Qu \\
+    Nanning, Guangxi 530012 \\
     People's Republic of China
 \end{minipage}
 \begin{minipage}[t]{0.35\textwidth}
@@ -60,9 +60,6 @@
             ITU Zone:
                 \>  43 \,
                 \>  \\
-                County:
-                \>  Nanning \\
-                \>  \\
         \end{tabbing}
     \end{footnotesize}
 \end{minipage}
@@ -70,7 +67,7 @@
 \begin{minipage}[t]{0.35\textwidth}
     \centering
     \scriptsize
-    \framebox[\textwidth][l]{\scriptsize Confirming QSO with: \vphantom{$\int\limits_{\dfrac aa}$}}
+    \framebox[\textwidth][l]{\scriptsize Confirming QSO with: \texttt{BG7ABC} \vphantom{$\int\limits_{\dfrac aa}$}}
 \end{minipage}
 \vfill
 \begin{minipage}{\textwidth}
@@ -82,7 +79,7 @@
             \rule{0pt}{0.125in}\textbf{Day} & \textbf{Month} & \textbf{Year} & \textbf{UTC} & \textbf{MHz} & \,\,\, \textbf{Mode} \,\,\, & \,\,\, \textbf{RST} \,\,\, & \textbf{QSL} \\
             \hline
             \hline
-            \balancedVPhantom{2em} & & & & & & & PSE \; TNX\\
+			 \balancedVPhantom{2em} & XXX & 2025 & 1234 & 433.000 & FM & 59 & PSE \; \sout{TNX} \\
             \hline
         \end{tabularx}
     \end{center}
@@ -90,10 +87,10 @@
 
 \vfill
 
-\footnotesize \textbf{GRID:}
+\footnotesize \textbf{GRID:} \texttt{AB12cd}
 \vfill
 
-\footnotesize \textbf{Rig:} \makebox[0.3\textwidth]{} \textbf{Power:} \makebox[0.1\textwidth]{} \textbf{Comments:}
+\footnotesize \textbf{Rig:} Device \makebox[0.3\textwidth]{} \textbf{Power:} 0W \makebox[0.1\textwidth]{} \textbf{Comments:}
 
 \vfill
 
@@ -101,7 +98,7 @@
 
 \vfill
 
-\textbf{Antenna:} \makebox[1cm]{}
+\textbf{Antenna:} Antenna \makebox[1cm]{}
 
 \vfill
 
